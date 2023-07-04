@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+
+body {
+  margin: 60px auto;
+  background: hsl(190, 61%, 84%);
+  font-family: 'Karla', sans-serif;
+  width: 650px;
+
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+p {
+  font-size: 15px;
+  color: rgb(127, 126, 126);
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);;
+}
+
+ul {
+
+  text-align: left;
+  margin-top: 20px;
+  margin-left: -40px;
+}
+
+li {
+  list-style: none;
+  color: hsl(204, 43%, 93%);
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.sub-header {
+  color: hsl(71, 73%, 54%);
+  /* text-shadow: 0 0 0.2px #333; */
+}
+
+/* This is for section one w/ white background */
+.container {
+  display: flex;
+}
+
+.section-one {
+  background: #fff;
+  padding: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* compound selectors */
+
+.section-two h2,
+.section-three h2 {
+  color: #fff;
+  font-size: 20px;
+}
+
+.section-two p {
+  color: hsl(204, 43%, 93%);
+}
+
+
+/* This is for section two */
+.section-two {
+  background: hsl(179, 62%, 43%);
+  padding: 50px;
+  padding-right: 10px;
+  padding-bottom: -14px;
+  border-bottom-left-radius: 10px;
+  width: 100%;
+}
+
+
+/* This is for section three */
+.section-three {
+  background: hsl(179, 58%, 53%);
+  padding: 40px;
+  padding-right: 60px;
+  border-bottom-right-radius: 10px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* dollars per month */
+
+.dollars {
+  font-size: 30px;
+  margin-right: 7px;
+  color: #fff;
+}
+
+.per-month {
+  color: hsl(179, 65%, 31%);
+}
+
+/* buttons */
+
+.btn {
+  margin-top: 6px;
+  padding: 15px 87px;
+  background: hsl(71, 73%, 54%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.btn:hover,
+.btn:focus  
+ {
+  background: hsl(179, 62%, 43%);
+  border: 1px solid #fff;
+}
+
+
+.attribution { 
+  margin-top: 15px;
+  font-size: 14px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
