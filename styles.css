@@ -41,7 +41,6 @@ li {
 
 .sub-header {
   color: hsl(71, 73%, 54%);
-  /* text-shadow: 0 0 0.2px #333; */
 }
 
 /* This is for section one w/ white background */
@@ -54,6 +53,7 @@ li {
   padding: 50px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+
 }
 
 /* compound selectors */
@@ -113,6 +113,7 @@ li {
   border-radius: 5px;
   cursor: pointer;
   border: 1px solid transparent;
+  box-shadow: 5px 5px 7px hsl(172, 26%, 43%);
 }
 
 .btn:hover,
